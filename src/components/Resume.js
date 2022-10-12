@@ -20,7 +20,7 @@ function Resume() {
                             <li>
                                 <h4 className="ff-jose my-1 text-red">React Developer</h4>
                                 <h6 className="blue-label px-2 py-1">Aug 2022 </h6>
-                                <p className="m-0">SysArt : Full-time</p>
+                                <p className="m-0">SysArt Technologies : Full-time</p>
                                 <p>Kerala, Calicut, India</p>
                             </li>
                             <li>
