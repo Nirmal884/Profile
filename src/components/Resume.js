@@ -72,7 +72,6 @@ function Resume() {
                         </h1>
                     </div>
                 </div>
-                {/* <NirmalResume/> */}
             </div>
         </div>
     </Fragment>
