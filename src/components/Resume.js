@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react'
-import { SiCodesandbox, SiGit } from 'react-icons/si';
+import { SiCodesandbox, SiGit} from 'react-icons/si';
+import {GoCloudDownload} from 'react-icons/go'
+import NirmalResume from '../assets/NirmalResume.pdf'
 
 function Resume() {
   return (
@@ -64,10 +66,13 @@ function Resume() {
                             <a href="https://github.com/Nirmal884" target="/blank" className="text-white text-decoration-none mx-2">
                                 <SiGit className="zoom-on-hover"/>
                             </a> 
+                            <a href={NirmalResume} download target="/blank" className="text-white text-decoration-none mx-2">
+                                <GoCloudDownload className="zoom-on-hover"/>
+                            </a> 
                         </h1>
                     </div>
                 </div>
-                
+                {/* <NirmalResume/> */}
             </div>
         </div>
     </Fragment>
