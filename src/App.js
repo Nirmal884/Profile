@@ -6,6 +6,7 @@ import Sidebar from './components/Sidebar';
 import Skills from './components/Skills';
 import Resume from './components/Resume';
 import MyWork from './components/MyWork';
+import Tools from './components/Tools';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={ <Home/> } exact></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/skills" element={<Skills/>}></Route>
+          <Route path="/tools" element={<Tools/>}></Route>
           <Route path="/resume" element={<Resume/>}></Route>
           <Route path="/mywork" element={<MyWork/>}></Route>
         </Routes>
