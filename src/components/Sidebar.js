@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import {VscHome} from 'react-icons/vsc'
 import {FiUser} from 'react-icons/fi'
 import {BsCode} from 'react-icons/bs'
+import {RiToolsLine} from 'react-icons/ri'
 import {MdOutlineDashboard, MdOutlineContactPage, MdEmail} from 'react-icons/md'
 import {AiFillLinkedin, AiFillGithub, AiOutlineUnorderedList, AiFillCodeSandboxCircle} from 'react-icons/ai'
 import {Link, NavLink} from "react-router-dom";
@@ -32,6 +33,11 @@ function Sidebar() {
                         <li className="nav-item">
                             <NavLink to="/skills" className="nav-link align-middle px-0 text-white">
                                 <BsCode className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Skills</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/tools" className="nav-link align-middle px-0 text-white">
+                                <RiToolsLine className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Tools</span>
                             </NavLink>
                         </li>
                         <li className="nav-item">

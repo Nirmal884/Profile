@@ -24,7 +24,7 @@
 html, body{
     margin: 0;
     font-family: 'Quicksand', sans-serif;
-    background-color: #16213E;
+    background-color: #37195d;
     color: white;
 }
 
@@ -38,10 +38,10 @@ html, body{
     letter-spacing: 2px;
 }
 .bg-dark{
-    background-color: #1A1A2E !important;
+    background-color: #221a2e !important;
 }
 .bg-blue {
-    background-color: #0F3460;
+    background-color: #1e0753bb;
 }
 .text-red {
     color: #E94560;
@@ -174,7 +174,7 @@ li::marker {
     font-size: 2em;
 }
 .blue-label{
-    background-color: #0F3460;
+    background-color: #49287d;
     width: max-content;
 }
 .zoom-on-hover:hover {
