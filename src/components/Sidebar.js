@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import {VscHome} from 'react-icons/vsc'
 import {FiUser} from 'react-icons/fi'
 import {BsCode} from 'react-icons/bs'
+import {RiToolsLine} from 'react-icons/ri'
 import {MdOutlineDashboard, MdOutlineContactPage, MdEmail} from 'react-icons/md'
 import {AiFillLinkedin, AiFillGithub, AiOutlineUnorderedList, AiFillCodeSandboxCircle} from 'react-icons/ai'
 import {Link, NavLink} from "react-router-dom";
@@ -15,7 +16,7 @@ function Sidebar() {
                 <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <div className='d-flex flex-column align-items-center align-items-sm-start px-5 pt-2 text-white' style={{fontFamily:"monospace"}}>
                     <Link to="/" className="d-flex align-items-center pb-1 mb-md-0 me-md-auto text-white text-decoration-none">
-                        <span className="fs-5 d-none d-sm-inline font-big ">Nirmal</span>
+                        <span className="fs-5 d-none d-sm-inline font-big ">N B</span>
                     </Link>
                     </div>
                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
@@ -32,6 +33,11 @@ function Sidebar() {
                         <li className="nav-item">
                             <NavLink to="/skills" className="nav-link align-middle px-0 text-white">
                                 <BsCode className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Skills</span>
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/tools" className="nav-link align-middle px-0 text-white">
+                                <RiToolsLine className='fs-5'/> <span className="ms-1 d-none d-sm-inline ">Tools</span>
                             </NavLink>
                         </li>
                         <li className="nav-item">

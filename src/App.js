@@ -4,6 +4,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Sidebar from './components/Sidebar';
 import Skills from './components/Skills';
+import Tools from './components/Tools';
 import Resume from './components/Resume';
 import MyWork from './components/MyWork';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" element={ <Home/> } exact></Route>
           <Route path="/about" element={<About/>}></Route>
           <Route path="/skills" element={<Skills/>}></Route>
+          <Route path="/tools" element={<Tools/>}></Route>
           <Route path="/resume" element={<Resume/>}></Route>
           <Route path="/mywork" element={<MyWork/>}></Route>
         </Routes>
