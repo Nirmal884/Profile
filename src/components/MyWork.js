@@ -100,6 +100,7 @@ function MyWork() {
                         </div>
                             <h5 className="ff-jose my-1">Crypto Matrix</h5>
                             <div className="row d-flex justify-content-center">
+                            <a href="/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><BsLaptop/> Watch Live</a>
                                 <a href="/" className="col-sm-12 col-md-5 portfolio-link text-decoration-none text-white m-1 px-2 py-1 bg-blue rounded" target="_blank"><AiFillGithub/> Source Code</a>
                             </div>
                         

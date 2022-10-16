@@ -185,7 +185,7 @@ li::marker {
 /* ===================== Portfolio ===================== */
 
 .portfolio-link:hover{
-    background-color: #E94560;
+    background-color: #48e945;
     -webkit-transition: background-color 300ms linear;
     -ms-transition: background-color 300ms linear;
     transition: background-color 300ms linear;

@@ -16,7 +16,7 @@ function Sidebar() {
                 <div className="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
                     <div className='d-flex flex-column align-items-center align-items-sm-start px-5 pt-2 text-white' style={{fontFamily:"monospace"}}>
                     <Link to="/" className="d-flex align-items-center pb-1 mb-md-0 me-md-auto text-white text-decoration-none">
-                        <span className="fs-5 d-none d-sm-inline font-big ">Nirmal</span>
+                        <span className="fs-5 d-none d-sm-inline font-big ">N B</span>
                     </Link>
                     </div>
                     <ul className="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
